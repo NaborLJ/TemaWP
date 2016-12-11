@@ -2,7 +2,6 @@
     <p><h1>Hello to my web </h1></p>
    <div id="index"
     <?php wp_nav_menu(array('menu'=>'Menu1'));?>
-    
         <?php 
         if (have_posts()) {
          while (have_posts()) {

@@ -9,12 +9,22 @@ h1{
 html{
     color: white;
     background-image: url(http://i.imgur.com/ttRmkk3.jpg);
+    
+    
+}
+
+#sidebar{
+float:right;
+  color: white;
+  
+}
+
+
+#menu-menu1{
     list-style:none;
 }
-#sidebar{
-  margin-left: 87%;
-  color: white;
-  float:right
+#menu-menu2{
+    list-style:none;
 }
 
 
