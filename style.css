@@ -13,12 +13,19 @@ html{
     
 }
 
-#sidebar{
-float:right;
-  color: white;
-  
+#loop{
+    float:left;
+    width:50%;
 }
-
+#sidebar{
+    float:right;
+    width: 50%;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
 
 #menu-menu1{
     list-style:none;

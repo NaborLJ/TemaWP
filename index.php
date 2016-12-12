@@ -1,6 +1,7 @@
 <?php get_header(); ?>
+<div id="index" class="clearfix">
+<div id="loop">
     <p><h1>Hello to my web </h1></p>
-   <div id="index"
     <?php wp_nav_menu(array('menu'=>'Menu1'));?>
         <?php 
         if (have_posts()) {
@@ -14,5 +15,9 @@
          }
         }?>
   </div>
+  
+ <div id="sidebar">
 <?php get_sidebar();?>
+ </div>
+ </div>
 <?php get_footer();?>
